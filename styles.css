@@ -194,3 +194,26 @@ footer a {
   margin-bottom: 16px;
   border-radius: 4px;
 }
+
+/* Generic section image styling used throughout the site */
+.section-image {
+  width: 100%;
+  height: auto;
+  margin-top: 16px;
+  border-radius: 4px;
+}
+
+/* Gallery layout for amenities images */
+.amenities-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.amenities-gallery img {
+  flex: 1 1 30%;
+  max-width: 32%;
+  height: auto;
+  border-radius: 4px;
+}
