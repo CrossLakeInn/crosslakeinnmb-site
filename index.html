@@ -30,8 +30,22 @@
     <div class="hero-content container">
       <h2>Book with us for the best room rate in Cross Lake</h2>
       <p>Clean, comfortable and affordable accommodations for business, government and medical travellers.</p>
-      <!-- The Book Now button links to the freetobook booking page. Replace the URL below with your actual property link once available. -->
-      <a class="cta-button" href="https://bookings.freetobook.com/" target="_blank" id="book-now">Book Now</a>
+      <!-- Booking widget powered by freetobook -->
+      <!--
+        To enable online bookings, replace the placeholder values for
+        w_id and w_tkn below with your actual freetobook widget ID and
+        token. These values are available from your freetobook account
+        under Direct Bookings → Booking Buttons → Advanced.
+
+        The form below submits to freetobook's reservation portal and
+        behaves just like a "Book Now" button. Guests will see your
+        availability and can complete their reservation on freetobook.
+      -->
+      <form class="booking-widget" action="https://portal.freetobook.com/reservations" method="get" target="_blank">
+        <input type="hidden" name="w_id" value="YOUR_WIDGET_ID_HERE">
+        <input type="hidden" name="w_tkn" value="YOUR_WIDGET_TOKEN_HERE">
+        <input type="submit" class="cta-button" value="Book Now">
+      </form>
     </div>
   </section>
 

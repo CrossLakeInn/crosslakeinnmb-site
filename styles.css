@@ -103,6 +103,11 @@ nav a:hover {
   background: #aed581;
 }
 
+/* Booking widget form styles */
+.booking-widget {
+  margin-top: 20px;
+}
+
 /* Sections */
 .section {
   padding: 40px 0;
